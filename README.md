@@ -13,5 +13,5 @@ The movement of the indentation head is controlled by sending G code to the CNC 
 ## Loadcell readout through serial port via ModBus protocol
 The loadcell readings goes through Z-SG amplifier module (check mannual), at current stage, max readout frequency is at 100Hz. It is also possible to read the amplified analog signal, the current setup is designed to perform readout through the serial port.
 
-## Making you own easy-swap indentation head for testing
+## Making your own easy-swap indentation head for testing
 In this repository I provide a template for making your own indentation head, which can be easily mounted on the setup without the need of extra tools.
