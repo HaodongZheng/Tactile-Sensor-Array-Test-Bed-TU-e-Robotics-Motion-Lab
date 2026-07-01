@@ -117,7 +117,8 @@ indenter.set_current_position_as_origin()
 Then the indentation head can be moved with:
 
 ```python
-indenter.move_to(x=0, y=0, z=0, feedrate=1000)
+x_pos, y_pos, z_pos = your_desired_x, your_desired_y, your_desired_z
+indenter.move_to(x=x_pos, y=x_pos, z=x_pos, feedrate=1000)
 ```
 
 The unit of length is millimeters.
@@ -169,8 +170,8 @@ The default baudrate in the script is:
 ```python
 BAUDRATE = 57600
 ```
-
-Make sure that the serial port, baudrate, and Modbus slave address match the configuration of your Z-SG amplifier module.
+ 
+Make sure that the serial port, baudrate, and Modbus slave address match the configuration of the Z-SG amplifier module if you change its settings (Do not recommend).
 
 ## Making your own easy-swap indentation head
 
