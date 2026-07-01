@@ -6,29 +6,30 @@ The setup guide is mainly tested on Ubuntu 20.04. Subtle differences might exist
 
 Clone this repository and enter the repository folder:
 
-```bash
 git clone https://github.com/HaodongZheng/Tactile-Sensor-Array-Test-Bed-TU-e-Robotics-Motion-Lab.git
 cd Tactile-Sensor-Array-Test-Bed-TU-e-Robotics-Motion-Lab
-```
 
-Create and activate a Python virtual environment:
+It is recommended to use a Python virtual environment to avoid conflicts with other Python packages. Here we name the environment tactile-testbed-env:
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
+python3 -m venv tactile-testbed-env
+source tactile-testbed-env/bin/activate
 
 On Windows, activate the virtual environment with:
 
-```bash
-.venv\Scripts\activate
-```
+tactile-testbed-env\Scripts\activate
 
 Install the required Python dependencies:
 
-```bash
 python -m pip install --upgrade pip
 python -m pip install numpy pymodbus pyserial
+
+If you do not want to use a virtual environment, you can also install the dependencies directly into your current Python environment:
+
+python3 -m pip install numpy pymodbus pyserial
+
+On Linux, the serial device usually appears as /dev/ttyUSB0. If you get a permission error when opening the serial port, add your user to the dialout group:
+
+sudo usermod -a -G dialout $USER
 ```
 
 The dependency `pymodbus` is used for reading the Z-SG loadcell amplifier through the ModBus protocol. The dependency `pyserial` is used for communicating with the CNC controller through the serial port. `numpy` is used by the loadcell readout script.
