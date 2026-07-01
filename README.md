@@ -1,6 +1,4 @@
-# Tactile Sensor Array Test Bed
-
-TU/e Robotics & Motion Lab
+# Tactile Sensor Array Test Bed (TU/e Robotics & Motion Lab)
 
 This repository contains code, 3D-printing files, and setup instructions for the tactile sensor array test bed at the TU/e Robotics & Motion Lab.
 
