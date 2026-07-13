@@ -4,6 +4,9 @@ This repository contains code, 3D-printing files, and setup instructions for the
 
 The test bed is designed for controlled indentation experiments with tactile sensor arrays. It includes example scripts for controlling the CNC-based indenter and reading force measurements from a loadcell through a Z-SG amplifier module.
 <img width="4032" height="3024" alt="IMG_3599" src="https://github.com/user-attachments/assets/925fb48a-52a1-433c-92b3-a18550bb9cf3" />
+<img width="600" height="1251" alt="port_and_switch" src="https://github.com/user-attachments/assets/7471922a-99d2-412d-ba13-ab243975febe" />
+
+
 ## Repository structure
 
 ```text
