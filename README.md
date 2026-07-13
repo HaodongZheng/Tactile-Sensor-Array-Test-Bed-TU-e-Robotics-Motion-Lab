@@ -3,7 +3,7 @@
 This repository contains code, 3D-printing files, and setup instructions for the tactile sensor array test bed at the TU/e Robotics & Motion Lab.
 
 The test bed is designed for controlled indentation experiments with tactile sensor arrays. It includes example scripts for controlling the CNC-based indenter and reading force measurements from a loadcell through a Z-SG amplifier module.
-
+<img width="4032" height="3024" alt="IMG_3599" src="https://github.com/user-attachments/assets/925fb48a-52a1-433c-92b3-a18550bb9cf3" />
 ## Repository structure
 
 ```text
