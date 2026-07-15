@@ -38,8 +38,8 @@ Clone this repository and enter the repository folder:
 git clone https://github.com/HaodongZheng/Tactile-Sensor-Array-Test-Bed-TU-e-Robotics-Motion-Lab.git
 cd Tactile-Sensor-Array-Test-Bed-TU-e-Robotics-Motion-Lab
 ```
-### Setup python virtual environment (Not mandatory)
-It is recommended (but not necessary) to use a Python virtual environment to avoid conflicts with other Python packages. If you do not want the hassel, you could skip this part. Here, the environment is named `tactile-testbed-env`:
+### Setup python virtual environment (recommended but not mandatory)
+It is recommended (but not necessary) to use a Python virtual environment to avoid conflicts with other Python packages. If you do not want the hassle, you could install dependencies in your local python environment. Here, the environment is named `tactile-testbed-env`:
 
 ```bash
 python3 -m venv tactile-testbed-env
@@ -71,7 +71,7 @@ Install the required Python dependencies:
 python -m pip install --upgrade pip
 python -m pip install numpy pymodbus pyserial
 ```
-### Install dependency on your local python environment
+### Install dependencies on your local python environment
 If you do not want to use a virtual environment, you can also install the dependencies directly into your current Python environment:
 
 ```bash
